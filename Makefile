@@ -1,3 +1,5 @@
+# Author: Paul Ockleford
+
 # Its important to understand that a makefile is really being processed by two languages, lines not prefixed
 # by a tab character are interpreted by make itself, lines prefixed by a tab are interpreted as 'recipes' and
 # are executed by the shell (default is /bin/sh although this can be changed to bash)
