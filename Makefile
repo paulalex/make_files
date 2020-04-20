@@ -29,7 +29,6 @@ COND_VAR ?= $(HOME)
 
 LS_BARE := ls
 
-# Appending operator enable a variable to be appended to
 SIMPLE := "Hello"
 COMPLEX = ps
 
@@ -49,6 +48,7 @@ stage-three:
 	$(call stdout, "SUBMODULE :: Stage three is running using a conditional variable")
 	@echo "$(COND_VAR)"
 
+# Appending operator enable a variable to be appended to
 SIMPLE += World
 stage-four:
 	$(call stdout, "SUBMODULE :: Stage four is running with a simple appended variable")
